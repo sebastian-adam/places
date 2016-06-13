@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Places</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    <form id="form-field" action="index.html" method="post">
+      <input id="location" type="text" name="location" placeholder="Location">
+      <input id="landmark" type="text" name="landmark" placeholder="Landmark">
+      <input id="favorite-thing" type="text" name="favoriteThing" placeholder="FavoriteThing">
+      <br>
+      <br>
+      <button type="submit" name="button">Submit</button>
+    </form>
+  </div>
+    <div class="sidebar">
+      <ul id="place-list">
+      </ul>
+    </div>
+    <div class="wrapper">
+      <div id="show-places">
+        <h2></h2>
+        <p>I saw the
+          <span class="landmark"></span>.
+          my favorite thing there was
+          <span class="fav"></span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
